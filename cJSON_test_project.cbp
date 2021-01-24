@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cJSON_test_project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cJSON_test_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cJSON_test_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="02-build-json-object-test.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cJSON.h" />
+		<Unit filename="cJSON_Utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cJSON_Utils.h" />
+		<Unit filename="c_json_pase_test_1.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="test/parse_examples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/src/ProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/src/ProductionCode.h" />
+		<Unit filename="test/unity/examples/example_1/src/ProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/src/ProductionCode2.h" />
+		<Unit filename="test/unity/examples/example_1/test/TestProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/test/TestProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_1/test/test_runners/TestProductionCode_Runner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/src/ProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/src/ProductionCode.h" />
+		<Unit filename="test/unity/examples/example_2/src/ProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/src/ProductionCode2.h" />
+		<Unit filename="test/unity/examples/example_2/test/TestProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/test/TestProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_2/test/test_runners/all_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_3/helper/UnityHelper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_3/helper/UnityHelper.h" />
+		<Unit filename="test/unity/examples/example_3/src/ProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_3/src/ProductionCode.h" />
+		<Unit filename="test/unity/examples/example_3/src/ProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_3/src/ProductionCode2.h" />
+		<Unit filename="test/unity/examples/example_3/test/TestProductionCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/example_3/test/TestProductionCode2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/examples/unity_config.h" />
+		<Unit filename="test/unity/extras/fixture/src/unity_fixture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/src/unity_fixture.h" />
+		<Unit filename="test/unity/extras/fixture/src/unity_fixture_internals.h" />
+		<Unit filename="test/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" />
+		<Unit filename="test/unity/extras/fixture/test/main/AllTests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/test/template_fixture_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/test/unity_fixture_Test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/test/unity_fixture_TestRunner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/test/unity_output_Spy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/extras/fixture/test/unity_output_Spy.h" />
+		<Unit filename="test/unity/src/unity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/src/unity.h" />
+		<Unit filename="test/unity/src/unity_internals.h" />
+		<Unit filename="test/unity/test/expectdata/testsample_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_def.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_head1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_head1.h" />
+		<Unit filename="test/unity/test/expectdata/testsample_mock_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_def.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_head1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_head1.h" />
+		<Unit filename="test/unity/test/expectdata/testsample_mock_new1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_new2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_param.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_run1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_run2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_mock_yaml.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_new1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_new2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_param.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_run1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_run2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/expectdata/testsample_yaml.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/testdata/CException.h" />
+		<Unit filename="test/unity/test/testdata/Defs.h" />
+		<Unit filename="test/unity/test/testdata/cmock.h" />
+		<Unit filename="test/unity/test/testdata/mockMock.h" />
+		<Unit filename="test/unity/test/testdata/testRunnerGenerator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/testdata/testRunnerGeneratorSmall.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/testdata/testRunnerGeneratorWithMocks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/tests/testparameterized.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/test/tests/testunity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
